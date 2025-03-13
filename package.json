@@ -9,6 +9,7 @@
     "servor": "^4.0.2"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.21",
     "vite": "^6.2.1"
   }
 }
