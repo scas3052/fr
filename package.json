@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "servor --reload",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "servor": "^4.0.2"
+  },
+  "devDependencies": {
+    "vite": "^6.2.1"
+  }
+}
