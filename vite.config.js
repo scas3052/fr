@@ -1,12 +1,15 @@
 import { defineConfig } from 'vite';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 export default defineConfig({
+  server: {
+    port: 3000,
+    open: true
+  },
   build: {
-    rollupOptions: {
-      input: {
-        main: './index.html',     // Login page
-        homepage: './homepage.html' // Post-login page
-      }
-    }
+    outDir: 'dist',
+    emptyOutDir: true
   }
 });
